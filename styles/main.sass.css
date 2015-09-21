@@ -1,0 +1,120 @@
+body {
+  margin: 0; }
+
+nav {
+  background-color: #003333;
+  height: 5em;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0; }
+  nav .logo-name {
+    font-family: 'Pacifico', cursive;
+    color: #00A9A9;
+    font-size: 2em;
+    padding-top: .25em;
+    margin-left: 1em;
+    float: left; }
+  nav #catpic {
+    margin-left: 1%;
+    margin-top: .75em;
+    height: 3em;
+    width: 3em; }
+  nav .wrapper {
+    background-color: transparent;
+    height: 2em;
+    width: 8em;
+    float: right;
+    margin-top: 1.25em;
+    margin-right: 6em; }
+    nav .wrapper a {
+      font-family: 'Pacifico', cursive;
+      color: #00A9A9;
+      font-size: 1em;
+      float: right;
+      margin-right: .5em; }
+    nav .wrapper span {
+      font-family: 'Pacifico', cursive;
+      color: #00A9A9;
+      font-size: 1em;
+      margin-right: .5em;
+      float: right; }
+
+#picture-add-hideaway {
+  background-color: #006464;
+  height: 3em;
+  width: 100%;
+  margin-top: 5em; }
+  #picture-add-hideaway button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-left: 11em;
+    margin-top: .4em; }
+  #picture-add-hideaway #confermation-of-add {
+    font-family: 'Pacifico', cursive;
+    color: #00C0C0;
+    padding-right: 10em;
+    font-size: x-large;
+    float: right;
+    display: none; }
+  #picture-add-hideaway #invaled-url {
+    font-family: 'Pacifico', cursive;
+    color: #00C0C0;
+    padding-right: 5em;
+    font-size: x-large;
+    float: right;
+    display: none; }
+
+#picture-add {
+  height: 11em;
+  border-bottom: .1em solid gray;
+  display: none; }
+  #picture-add input {
+    font-size: smaller;
+    display: block;
+    margin: 1em auto;
+    width: 23em; }
+  #picture-add #caption {
+    height: 4em; }
+  #picture-add #cancel {
+    border: none;
+    background-color: #B0B8B7;
+    height: 2em;
+    width: 6em;
+    font-size: large;
+    text-align: center;
+    margin-left: 19.5em;
+    border-radius: .2em; }
+  #picture-add #snip-it {
+    border: none;
+    background-color: #006464;
+    color: #009F9F;
+    height: 2em;
+    width: 6em;
+    font-size: large;
+    text-align: center;
+    margin-left: .5em;
+    border-radius: .2em; }
+
+#picture-area {
+  height: 31em;
+  width: 32em;
+  margin: 3em auto; }
+  #picture-area img {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border: .2em solid #D5DEDC;
+    margin-bottom: 1em; }
+  #picture-area div {
+    font-family: 'Kreon', serif;
+    border: .2em solid #D5DEDC;
+    margin-top: -1.6em;
+    border-top: 0;
+    padding-top: 1em;
+    width: 100%;
+    margin-bottom: 2em;
+    padding-bottom: .5em;
+    border-radius: .5em;
+    background-color: #B0B8B7; }
